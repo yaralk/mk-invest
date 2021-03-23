@@ -1,0 +1,195 @@
+html,body{
+	/* height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;	 */
+}
+
+div {
+	border-radius: 3px;
+	border: 2px solid #000;
+}
+
+.header{
+	background-image: url(../img/city3.jpg);
+	background-size: contain;
+	position: relative;
+
+	border-radius: 6px;
+	color: rgb(155,98,111);
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 600px;
+	height: 150px;
+
+}
+.logo{
+	float: left;
+	width: 300px;
+	height: auto;
+}
+.img_logo{
+	float: left;
+}
+.logo p{
+	font-size: 130%;
+}
+
+.mail a{
+	color: rgb(155,98,111);
+	text-decoration: none;
+}
+
+
+
+
+.phone{
+	border: 2px solid rgba(18, 182, 26, 0.918);
+	float: left;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;	
+}
+.ico_phone{
+	float: left;
+	display: block;
+	margin-top: 15px;
+
+}
+img.logo_header, img.ico_phone{
+	display: inline-block;
+}
+
+ul.phone_numbers{
+	list-style-type: none;
+	color: rgb(155,98,111);
+	font-size: large;
+}
+
+.phone p{
+	font-size: 110%;
+	text-align: center;
+}
+
+.menu{
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: rgba(226, 146, 122, 0.918);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	height: auto;
+	margin: 3px auto;
+}
+.menu a{
+	display: inline-block;
+	padding: 5px; 
+}
+.menu li{
+	list-style-type: none;
+	display: inline;
+	font-size: 130%;
+}
+nav a{
+	text-decoration: none;
+	
+}
+nav :hover{ 
+	color: chartreuse;
+}
+ul.menu{
+	margin: 0;
+	padding: 0;
+}
+
+.tagline{
+	border: 1px solid rgba(226, 146, 122, 0.918);
+	border-radius: 3px;
+	/* display: flex; */
+	margin: 3px auto;
+	max-width: 1200px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.center, .center_1{
+	border: 1px solid rgba(226, 146, 122, 0.918);
+	border-radius: 3px;
+	/* display: flex; */
+	margin: 3px auto;
+	max-width: 1200px;
+	position: relative;
+	overflow: hidden;
+}
+
+.tile {
+	border: 1px solid rgba(18, 182, 26, 0.918);
+	border-radius: 3px;
+	width: 360;
+	height: auto;
+	margin: 15;
+	position: relative;
+	float: left;
+}
+.tile:hover{
+	border: 1px solid rgba(90, 31, 138, 0.918);
+}
+
+.tile__img {
+	display: block;
+	margin: 0px auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+.help{
+	border: 1px solid  rgba(226, 146, 122, 0.918);
+	border-radius: 3px;
+	/* display: flex; */
+	margin: 3px auto;
+	max-width: 1200px;
+	position: relative;
+	overflow: hidden;
+}
+
+.help p{
+	font-size: 200%;
+}
+
+.phone_1{
+	float: left;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+	right: 0;	
+}
+.footer{
+	border: 1px solid  rgba(226, 146, 122, 0.918);
+	border-radius: 3px;
+	/* display: flex; */
+	margin: 3px auto;
+	max-width: 1200px;
+	position: relative;
+	overflow: hidden;
+}
+.img_logo_footer{
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	height: auto;
+	display: block;
+}
