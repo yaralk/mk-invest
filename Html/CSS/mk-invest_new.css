@@ -13,7 +13,7 @@ html,body{
 
 div {
 	border-radius: 6px;
-	border: 2px solid #000;
+	border: 2px solid rgba(226, 146, 122, 0.918);
 	position: relative;
 }
 
@@ -113,36 +113,36 @@ ul.menu{
 }
 
 .tagline{
-	border: 1px solid rgba(226, 146, 122, 0.918);
-	border-radius: 3px;
-	/* display: flex; */
-	margin: 3px auto;
-	max-width: 1200px;
+	margin: 0px auto;
+	margin-bottom: 6px;
+	max-width: 1196px;
 	text-align: center;
 	font-size: 200%;
 }
 
-.center, .center_1{
-	border: 1px solid rgba(226, 146, 122, 0.918);
-	border-radius: 3px;
-	/* display: flex; */
-	margin: 3px auto;
+.center {
+	border-radius: 0px;
+	border: 0px none;
+	margin: 0px auto;
+	margin-bottom: 6px;
 	max-width: 1200px;
 	position: relative;
 	overflow: hidden;
 }
 
 .tile {
-	border: 1px solid rgba(18, 182, 26, 0.918);
-	border-radius: 3px;
-	width: 360;
+	border-color: rgba(18, 182, 26, 0.918);
+	width: 392;
 	height: auto;
-	margin: 15;
+	margin-right: 6px;
 	position: relative;
 	float: left;
 }
 .tile:hover{
-	border: 1px solid rgba(90, 31, 138, 0.918);
+	border: 2px solid rgba(90, 31, 138, 0.918);
+}
+.tile:last-child{
+	margin-right: 0px;
 }
 
 .tile__img {
@@ -155,10 +155,8 @@ h2 {
 }
 
 .help{
-	border: 1px solid  rgba(226, 146, 122, 0.918);
-	border-radius: 3px;
-	/* display: flex; */
-	margin: 3px auto;
+    margin: 0px auto;
+	margin-bottom: 6px;
 	max-width: 1200px;
 	position: relative;
 	overflow: hidden;
