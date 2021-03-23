@@ -12,24 +12,24 @@ html,body{
 }
 
 div {
-	border-radius: 3px;
+	border-radius: 6px;
 	border: 2px solid #000;
+	position: relative;
 }
 
 .header{
+	border: 0px;
 	background-image: url(../img/city3.jpg);
 	background-size: contain;
-	position: relative;
-
-	border-radius: 6px;
 	color: rgb(155,98,111);
 	margin: 0 auto;
+	margin-bottom: 6px;
 	max-width: 1200px;
 	min-width: 600px;
 	height: 150px;
-
 }
 .logo{
+	border: 0px;
 	float: left;
 	width: 300px;
 	height: auto;
@@ -41,13 +41,15 @@ div {
 	font-size: 130%;
 }
 
+.mail{
+	border: 0px;
+}
+
 .mail a{
 	color: rgb(155,98,111);
 	text-decoration: none;
+	font-size: 130%;
 }
-
-
-
 
 .phone{
 	border: 2px solid rgba(18, 182, 26, 0.918);
@@ -79,16 +81,15 @@ ul.phone_numbers{
 }
 
 .menu{
-	border: 1px solid;
-	border-radius: 3px;
-	border-color: rgba(226, 146, 122, 0.918);
+	border: 2px solid rgba(226, 146, 122, 0.918);
+	border-radius: 6px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	max-width: 1200px;
-	height: auto;
-	margin: 3px auto;
+	margin: 0px auto;
+	margin-bottom: 6px;
 }
 .menu a{
 	display: inline-block;
