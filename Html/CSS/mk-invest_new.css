@@ -1,4 +1,5 @@
 html,body{
+	background: #F4F9FA;
 	/* height: 100%;
 	width: 100%;
 	font-size: 100%;
@@ -24,7 +25,7 @@ div {
 	color: rgb(155,98,111);
 	margin: 0 auto;
 	margin-bottom: 6px;
-	max-width: 1200px;
+	max-width: 954px;
 	min-width: 600px;
 	height: 150px;
 }
@@ -81,24 +82,25 @@ ul.phone_numbers{
 }
 
 .menu{
+	background: #B4CCC6;
 	border: 2px solid rgba(226, 146, 122, 0.918);
 	border-radius: 6px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	max-width: 1200px;
+	max-width: 950px;
 	margin: 0px auto;
 	margin-bottom: 6px;
 }
 .menu a{
 	display: inline-block;
-	padding: 5px; 
+	padding: 0px; 
 }
 .menu li{
 	list-style-type: none;
 	display: inline;
-	font-size: 130%;
+	font-size: 100%;
 }
 nav a{
 	text-decoration: none;
@@ -115,7 +117,7 @@ ul.menu{
 .tagline{
 	margin: 0px auto;
 	margin-bottom: 6px;
-	max-width: 1196px;
+	max-width: 950px;
 	text-align: center;
 	font-size: 200%;
 }
@@ -125,21 +127,23 @@ ul.menu{
 	border: 0px none;
 	margin: 0px auto;
 	margin-bottom: 6px;
-	max-width: 1200px;
+	max-width: 954px;
 	position: relative;
 	overflow: hidden;
 }
 
 .tile {
-	border-color: rgba(18, 182, 26, 0.918);
-	width: 392;
+	backgraund: #BBCCC8;
+	border-color:#BBCCC8;
+	width: 310px;
 	height: auto;
 	margin-right: 6px;
 	position: relative;
 	float: left;
 }
 .tile:hover{
-	border: 2px solid rgba(90, 31, 138, 0.918);
+	background: #F5D9D9;
+	border: 2px solid #994141;
 }
 .tile:last-child{
 	margin-right: 0px;
@@ -157,7 +161,7 @@ h2 {
 .help{
     margin: 0px auto;
 	margin-bottom: 6px;
-	max-width: 1200px;
+	max-width: 950px;
 	position: relative;
 	overflow: hidden;
 }
@@ -175,11 +179,11 @@ h2 {
 	right: 0;	
 }
 .footer{
-	border: 1px solid  rgba(226, 146, 122, 0.918);
+	border: 2px solid  rgba(226, 146, 122, 0.918);
 	border-radius: 3px;
 	/* display: flex; */
 	margin: 3px auto;
-	max-width: 1200px;
+	max-width: 950px;
 	position: relative;
 	overflow: hidden;
 }
