@@ -1,39 +1,49 @@
-html,body{
-	background: #F4F9FA;
-	/* height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;*/
-	font-family: Arial, Helvetica, sans-serif;
+/*Обнуление*/
+*{
 	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-div {
-	border-radius: 6px;
-	border: 2px solid rgba(226, 146, 122, 0.918);
+img{
+	display: block;
 	position: relative;
 }
 
-.header{
-	/* border: 0px; */
-	border: 2px solid #F4F9FA;
-	/* background: #F5E0E0; */
-	/*background-image: url(../img/city3.jpg);*/
-	background-size: contain;
-	color: #2E3569;
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	background: #F4F9FA;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.body_line {
+	border-radius: 6px;
+	border: 2px solid rgba(226, 146, 122, 0.918);
+	/* border: 2px solid  #C1C3D0; */
+    position: relative;
 	margin: 0 auto;
-	margin-bottom: 6px;
-	max-width: 954px;
+	margin-bottom: 10px;
 	min-width: 600px;
+	max-width: 950px;
+}
+
+.header{
+	border-color:#F4F9FA;
+	color: #2E3569;
 	height: 120px;
 }
 
 .logo{
-	/* border: 2px solid rgba(226, 146, 122, 0.918); */
 	border: 0px;
 	margin-top: 5px;
 	margin-left: 20px;
@@ -41,7 +51,7 @@ div {
 	width: 350px;
 	height: auto;
 }
-.img_logo{
+.logo_img{
 	float: left;
 	display: block;
 	margin-right: 15;
@@ -107,29 +117,25 @@ div {
 	padding-top: 3px;
 }
 
-img.logo_header {
-	display: inline-block;
-}
-
-.menu{
-	background: #C898E9F;
-	border: 2px solid #C1C3D0;
-	border-radius: 6px;
-	display: flex;
+.main_menu{
+	border-color: #C1C3D0;
+	/* display: flex; */
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	max-width: 950px;
-	margin: 0px auto;
-	margin-bottom: 6px;
+	padding: 10 10;
 }
 
-.menu a{
-	display: inline-block;
-	padding: 0px; 
+.main_menu :hover{ 
+	color: #994141;
 }
 
-.menu li{
+.main_menu a{
+	text-decoration: none;
+	color: #2E3569;	
+}
+
+.main_menu li{
 	border-right: 1px solid #2E3569;
 	list-style-type: none;
 	display: inline;
@@ -137,89 +143,34 @@ img.logo_header {
 	padding: 0px 10px;
 }
 
-.menu li:last-child{
+.main_menu li:last-child{
 	border-right: none;
-}
-
-nav ul li a{
-	background: url(../images/nav_a.png) no-repeat right center;
-    background-image: url(../images/nav_a.png);
-    background-position-x: right;
-    background-position-y: center;
-    background-size: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;}
-
-
-/* nav>ul>li>a:hover, nav>ul>li>span:hover {
-	background: url(../images/nav_sel.gif) no-repeat center;
-	border: 1px solid #1e4977;
-	height: 27px;
-	display: block;
-	text-align: center;
-	padding: 10px 0 0 0;
-	color: #fff;
-	width: 102px;
-} */
-
-/* .menu li{
-		display: list-item;
-		text-align: -webkit-match-parent;
-		list-style: none;
-			list-style-position: initial;
-			list-style-image: initial;
-			list-style-type: none;
-} */
-
-
-nav a{
-	text-decoration: none;
-	color: #2E3569;
-	
-}
-nav :hover{ 
-	color: #994141;
-}
-ul.menu{
-	margin: 0;
-	padding: 0;
 }
 
 .tagline{
 	background-image: url(../Img/blue_fon.jpg);
-	margin: 0px auto;
-	margin-bottom: 6px;
-	max-width: 950px;
 	text-align: left;
 	color: #994141;
 	font-size: 200%;
+	padding: 50 30;
 }
 
 .center {
-	border-radius: 0px;
-	border: 0px none;
-	margin: 0px auto;
-	margin-bottom: 6px;
-	max-width: 954px;
-	position: relative;
+	border: 0px;
 	overflow: hidden;
 }
 
 .tile {
-	backgraund: #BBCCC8;
-	border-color:#BBCCC8;
+	border-radius: 6px;
+	border: 2px solid  #C1C3D0;
 	width: 310px;
 	height: auto;
+	padding: 10px;
 	margin-right: 6px;
 	position: relative;
 	float: left;
 }
 .tile:hover{
-/*  background: #C0C3CF; */
 	border: 2px solid #994141;
 }
 .tile:last-child{
@@ -229,6 +180,7 @@ ul.menu{
 .tile__img {
 	display: block;
 	margin: 0px auto;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -236,12 +188,7 @@ h2 {
 }
 
 .help{
-    margin: 0px auto;
-	margin-bottom: 6px;
-	padding-left: 10px;
-	max-width: 940px;
-	position: relative;
-	overflow: hidden;
+    padding: 10 10;
 }
 
 .help p{
