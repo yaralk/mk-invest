@@ -1,0 +1,13 @@
+
+.purchase_1{
+	display: block;
+	position: relative;
+	float: left;
+	padding-right: 25px;
+}
+
+.purchase_2{
+	display: block;
+	position: relative; 
+	float: right;
+}

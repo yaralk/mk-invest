@@ -1,0 +1,28 @@
+.transaction_p{
+	color: #2E3569;
+	text-align: justify;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+
+.transaction_1{
+	display: block;
+	position: relative;
+	float: left;
+	padding-right: 25px;
+}
+
+
+.transaction_2{
+	display: block;
+	color: #2E3569;
+	text-align: justify;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	position: relative; 
+	float: right;
+}
+

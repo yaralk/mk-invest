@@ -1,0 +1,18 @@
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #2E3569;
+	border-spacing: 0px;
+	border-bottom: 10px;
+	color: #2E3569;;
+	margin: 0 5px 5px 5px;
+
+}
+tr , th, td{  
+	border: 1px solid #2E3569;
+	padding: 3px;
+ }
+
+.zero{
+	empty-cells: show;
+} 
